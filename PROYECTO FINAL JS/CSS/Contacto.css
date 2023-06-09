@@ -1,0 +1,94 @@
+.Gris {
+    background-color: pink !important;
+    padding: 1em;
+}
+
+form {
+    width: 100%;
+    margin: 10px auto;
+    color: #fff;
+    margin-left: 0px;
+}
+
+td.td-table {
+    width: 50%;
+}
+
+label {
+    font-size: 18px;
+    outline: none;
+}
+
+textarea {
+    max-height: 100px;
+    outline: none;
+    color: #fff;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: white 2px solid;
+    background-color: pink;
+    cursor: pointer;
+    color: #fff;
+}
+
+fieldset {
+    border-style: none;
+    outline: none;
+    font-style: #fff;
+    margin-left: 40px;
+    margin: auto;
+}
+
+form button {
+    width: 30%;
+    margin: 15px 0px 20px 25px;
+    height: 40px;
+    background-color: white;
+    border: 0px;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background: white;
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+
+form input {
+    height: 16px;
+    box-sizing: border-box;
+    border: 0px;
+    outline: none;
+    background-color: plum;
+    border-bottom: white solid;
+    font-style: #fff;
+}
+
+.input-Contact {
+    width: 90%;
+}
+
+select {
+    background-color: plum;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    border-bottom: white 2px solid;
+}
+
+select:focus {
+    background-color: white;
+    outline: none;
+}
+
+textarea.coment {
+    background-color: plum;
+    outline: none;
+    border: 0px;
+    color: #fff;
+    border-bottom: white 2px solid;
+}

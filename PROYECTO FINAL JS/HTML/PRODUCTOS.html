@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../CSS/Filtros.css">
+    <link rel="stylesheet" href="../CSS/INDEX.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/OSCURO TEM.css">
+    <link rel="icon" href="../IMG/logo-removebg-preview.png" type="image/png" />
+    <title>Mundo de fantasias</title>
+</head>
+
+<body class="bodyL" id="body">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- The social media icon bar -->
+    <div class="icon-bar">
+        <a href="https://es-la.facebook.com/" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://google.com" class="google"><i class="fa fa-google"></i></a>
+        <a href="https://instagram.com" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+    <header>
+        <div class="container-fluid Heady">
+            <h1>Mundo de fantasias</h1>
+            <nav id="menu">
+                <ul class="mainmenu">
+                    <li><a class="menu" href="../HTML/INDEX.html">INICIO</a></li>
+                    <li>|</li>
+                    <li><a class="menu" href="../HTML/PRODUCTOS.html">PRODUCTOS Y SERVICIOS</a></li>
+                    <li>|</li>
+                    <li><a class="menu" href="../HTML/CONTACTO.html">CONTACTO</a></li>
+                    <li>|</li>
+                    <li><a class="menu" href="../HTML/REGISTRO.html">REGISTRATE</a></li>
+                    <li>|</li>
+                    <li>
+                        <form action="">
+                            <input id="boton" class="btn btn-default" type="button" value="Claro &#9737; / Oscuro &#9790;">
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <!-- START SECTION STORE -->
+    <div class="container containerL" id="Container">
+        <div class="main row Blanco" id="Blanco">
+            <section class="author-archive col-md-12">
+                <div class="Contenido1"><br>
+                    <h1 class="Title-Prod">PRODUCTOS</h1>
+                    <input type="radio" id="All" name="categories" value="All" checked>
+                    <input type="radio" id="carteles" name="categories" value="carteles">
+                    <input type="radio" id="cajas explosivas" name="categories" value="cajas explosivas">
+                    <input type="radio" id="ramos de mariposas" name="categories" value="ramos de mariposas">
+                    <input type="radio" id="manillas" name="categories" value="manillas">
+
+                    <ol class="filters">
+                        <li>
+                            <label for="All">All</label>
+                        </li>
+                        <li>
+                            <label for="Carteles">Carteles</label>
+                        </li>
+                        <li>
+                        <label for="Cajas explosivas">Cajas explosivas</label>
+                        </li>
+                        <li>
+                            <label for="Ramos de mariposas">Ramos de mariposas</label>
+                        </li>
+                        <li>
+                            <label for="manillas">Manillas</label>
+                        </li>
+                    </ol>
+
+                    <ol class="posts">
+                        <!--Habitaciones-->
+                        <li class="post" data-category="carteles">
+
+                            <div class="item">
+                                <img class="item-image" src="../IMG/Cartel 5.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">cartel mediano</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Cartel mediano incluye empaque tapa y moño acabados en foamy</p>
+                                </h2>
+                                <div class="item-details"></div>
+                                <h4 class="item-price">
+                                    <p class="Precio"><b>52.000</b></p>
+                                </h4>
+                                <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="carteles">
+                            <div class="item">
+                                <img class="item-image" src="../IMG/Cartel 1.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Cartel 2</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Cartel color blanco largo incluye dibujo personalizacion</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price">
+                                        <p class="Precio"><b>25.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="carteles">
+                            <div class="item">
+                                <img class="item-image" src="../IMG/Cartel 2.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Cartel 3</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Cartel pequeño color negro incluye empaque </p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price">
+                                        <p class="Precio"><b>22.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Cajas explosivas-->
+
+                        <li class="post" data-category="cajas explosivas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/cajas exp 2.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Caja explosiva</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Caja explosiva con globo burbuja </p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>40.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="caja explosiva">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/cajas exp 1.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Caja explosiva</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Caja tipo cartel acabados en foamy y relleno</p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>50.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="cajas explosivas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/caja 4.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Caja explosiva</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Caja redonda grande con relleno no incluye globo</p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>60.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="caja explosiva ">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/caja 5.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Caja explosiva</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">caja con diseños grande </p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>68.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="cajas explosivas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/caja 6.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Caja explosiva</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">caja pequeña de 15 cm con fotos </p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>35.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--Ramos de mariposas-->
+
+                        <li class="post" data-category="Ramos de mariposas">
+                            <div class="item">
+                                <img class="item-image" src="../IMG/ramo 2.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Ramo de mariposa</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Ramo de mariposa pequeo incluye luces led blancas</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>48.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="Ramo de mariposas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/ramo 3.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Ramo de mariposas</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Ramo grande azul con artas mariposas</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>70.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="Ramo de mariposas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/ramo 4.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">ramos de mariposas</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Mariposas moradas ramo buchon</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>95.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="post" data-category="Ramo de mariposas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/ramo 5.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Ramo de mariposas</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">Ramo mediano rojo con luces</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>56.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--manillas-->
+                        <li class="post" data-category="Manillas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/manilla 2.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">Manillas</p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">manillas personalizadas</p>
+                                </h2>
+                                <div class="item-details ">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>20.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="post" data-category="manillas">
+                            <div class="item">
+                                <img class="item-image " src="../IMG/manilla 3.jpeg"><br>
+                                <h2 class="item-title">
+                                    <p class="Subtitilo">manillas </p>
+                                </h2>
+                                <h2>
+                                    <p class="Descripcion">manillas personalizadas</p>
+                                </h2>
+                                <div class="item-details">
+                                    <h4 class="item-price ">
+                                        <p class="Precio"><b>20.000</b></p>
+                                    </h4>
+                                    <button class="item-button btn btn-primary addToCart ">AÑADIR AL CARRITO</button>
+                                </div>
+                            </div>
+                        </li>
+                </div>
+            </section>
+        </div>
+
+        <!-- END SECTION STORE -->
+        <!-- START SECTION SHOPPING CART -->
+        <div class="row Blanco2" id="Blanco2">
+            <section class="shopping-cart col-md-12">
+                <div class="container "><br><br>
+                    <h1 class="text-center">CARRITO</h1>
+                    <hr>
+                    <div class="row ">
+                        <div class="col-6 ">
+                            <div class="shopping-cart-header ">
+                                <h6>Producto</h6>
+                            </div>
+                        </div>
+                        <div class="col-2 ">
+                            <div class="shopping-cart-header ">
+                                <h6 class="text-truncate ">Precio</h6>
+                            </div>
+                        </div>
+                        <div class="col-4 ">
+                            <div class="shopping-cart-header ">
+                                <h6>Cantidad</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ? START SHOPPING CART ITEMS -->
+                    <div class="shopping-cart-items shoppingCartItemsContainer ">
+                    </div>
+                    <!-- ? END SHOPPING CART ITEMS -->
+
+                    <!-- START TOTAL -->
+                    <div class="row ">
+                        <div class="col-12 ">
+                            <div class="shopping-cart-total d-flex align-items-center ">
+                                <p class="mb-0 ">Total</p>
+                                <p class="ml-4 mb-0 shoppingCartTotal ">0</p>
+                                <div class="toast ml-auto bg-info " role="alert " aria-live="assertive " aria-atomic="true " data-delay="2000 ">
+                                    <div class="toast-header ">
+                                        <span>✅</span>
+                                        <strong class="mr-auto ml-1 text-secondary ">Elemento en el carrito</strong>
+                                        <button type="button " class="ml-2 mb-1 close " data-dismiss="toast " aria-label="Close ">
+                                    <span aria-hidden="true ">&times;</span>
+                                </button>
+                                    </div>
+                                    <div class="toast-body text-white ">
+                                        Se aumentó correctamente la cantidad
+                                    </div>
+                                </div>
+                                <button class="btn btn-success ml-auto comprarButton " type="button " onclick="BotonComprar();">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row Azulito">
+                <div class="col-xs-12 col-sm-8">
+                    <br><b>2023</b> <br>Todos los derechos reservados @dana avila &copy; <br> mundo-de-fantasias@gmail.com
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <br> kra 105 b #58-16 <br>Bogotá D.C. - Colombia <br>Teléfono 57 (312 845 77 09)
+                    <br>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12 Blanco">
+                    <center>
+                        <h5 class="designBy">
+                            Diseñado por: Dana avila
+                        </h5>
+                    </center>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <br><br>
+
+
+
+    <!-- SCRIPTS -->
+    <script src="../JS/OSCURO PROD.js"></script>
+    <script src="../JS/TIENDA.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
